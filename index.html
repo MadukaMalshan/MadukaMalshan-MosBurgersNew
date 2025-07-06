@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mos Burgers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="logo">Mos Burgers</span>
+        </div>
+        <div class="navbar-right">
+            <button class="cart-btn">View Cart</button>
+            <div class="dropdown">
+                <button class="dropbtn">Account</button>
+                <div class="dropdown-content">
+                    <a href="#">Sign In</a>
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Left: Add Customer Form -->
+        <div class="left-panel">
+            <h2>Add Customer</h2>
+            <form id="customerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="phone">Phone No:</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit" class="add-btn">Add Customer</button>
+            </form>
+        </div>
+
+        <!-- Right: Burger Cards -->
+        <div class="right-panel">
+            <h2>Our Burgers</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&q=80" alt="Classic Burger">
+                    <h3>Classic Burger</h3>
+                    <p>Juicy beef patty, lettuce, tomato, cheese.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80" alt="Cheese Burger">
+                    <h3>Cheese Burger</h3>
+                    <p>Beef patty, double cheese, pickles.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Chicken Burger">
+                    <h3>Chicken Burger</h3>
+                    <p>Crispy chicken, lettuce, mayo.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80" alt="Veggie Burger">
+                    <h3>Veggie Burger</h3>
+                    <p>Grilled veggie patty, fresh greens.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Spicy Burger">
+                    <h3>Spicy Burger</h3>
+                    <p>Beef patty, jalapenos, spicy sauce.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Fish Burger">
+                    <h3>Fish Burger</h3>
+                    <p>Crispy fish fillet, tartar sauce.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Bacon Burger">
+                    <h3>Bacon Burger</h3>
+                    <p>Beef patty, bacon, cheese, BBQ sauce.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1523987355523-c7b5b0723c6a?auto=format&fit=crop&w=400&q=80" alt="Double Patty Burger">
+                    <h3>Double Patty Burger</h3>
+                    <p>Double beef patties, cheese, onions.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
