@@ -10,5 +10,8 @@ function addCustomer(){
     }
 
     customerList.push(customer);
-}
 
+    localStorage.setItem("customerList",JSON.stringify(customerList));
+    let value = JSON.parse(localStorage.getItem("customerList"));
+    console.log(value);
+}
