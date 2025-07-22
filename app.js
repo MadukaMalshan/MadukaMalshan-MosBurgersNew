@@ -11,3 +11,4 @@ function addCustomer(){
 
     customerList.push(customer);
 }
+
