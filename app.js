@@ -1,4 +1,11 @@
-let customerList = [];
+let customerList = [
+    {
+        name: "saman",
+        address: "panadura",
+        phone : "0773412334",
+        email: "123@gmail.com"
+    }
+];
 
 function addCustomer(){
     let customer = {
